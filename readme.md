@@ -13,7 +13,7 @@ Requirements
 
 Steps to start
 ```shell
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 init.py --aws-cli-profile <aws cli profile> --aws-region <aws region> --queue-name <sqs queue name> --lambda-function-name <lambda name>
 ```
 
